@@ -3,6 +3,12 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Threading.Tasks;
 using System;
 using Acme.BookStore.Books;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
+using System.Linq;
+using Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.TagHelpers.Form;
 
 namespace Acme.BookStore.Web.Pages.Books
 {

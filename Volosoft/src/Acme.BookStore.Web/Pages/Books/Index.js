@@ -47,18 +47,14 @@
                             ]
                     }
                 },
-                ...
                 {
                     title: l('Name'),
                     data: "name"
                 },
-
-                // ADDED the NEW AUTHOR NAME COLUMN
                 {
                     title: l('Author'),
                     data: "authorName"
                 },
-
                 {
                     title: l('Type'),
                     data: "type",
